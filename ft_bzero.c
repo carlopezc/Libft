@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 17:15:55 by carlopez          #+#    #+#             */
-/*   Updated: 2024/09/25 13:55:29 by carlopez         ###   ########.fr       */
+/*   Updated: 2024/10/09 16:19:45 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,5 @@ void	ft_bzero(void *s, size_t n)
 	i = 0;
 	p = (unsigned char *)s;
 	while (i < n)
-	{
-		p[i] = 0;
-		i++;
-	}
+		p[i++] = 0;
 }
