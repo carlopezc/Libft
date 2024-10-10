@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 17:14:33 by carlopez          #+#    #+#             */
-/*   Updated: 2024/10/03 20:11:47 by carlopez         ###   ########.fr       */
+/*   Updated: 2024/10/10 12:37:37 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,4 @@ int	ft_isascii(int c)
 	if (c >= 0 && c <= 127)
 		return (1);
 	return (0);
-}
-
-int	main(void)
-{
-	printf("%d\n", ft_isascii(128));
 }

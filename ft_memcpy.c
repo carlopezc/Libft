@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 17:16:27 by carlopez          #+#    #+#             */
-/*   Updated: 2024/10/04 10:21:19 by carlopez         ###   ########.fr       */
+/*   Updated: 2024/10/10 12:32:00 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,17 +24,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		return (dest);
 	i = 0;
 	while (i < n)
-	{
-		dest_char[i] = src_char[i];
-		i++;
-	}
+		dest_char[i] = src_char[i++];
 	return (dest_char);
-}
-
-int	main(void)
-{
-	char dest[] = "";
-	char src[] = "hola";
-	printf("%s\n", (char *)ft_memcpy(NULL, NULL, 4));
-
 }

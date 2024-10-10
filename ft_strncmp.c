@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 16:48:10 by carlopez          #+#    #+#             */
-/*   Updated: 2024/10/04 11:30:55 by carlopez         ###   ########.fr       */
+/*   Updated: 2024/10/10 12:35:48 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,4 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		i++;
 	}
 	return (0);
-}
-
-int	main(void)
-{
-
-	printf("%d\n", ft_strncmp("holaaa", "holaba", 6));
-	printf("%d\n", strncmp("holaaa", "holaba", 6));
 }

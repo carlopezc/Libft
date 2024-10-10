@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 17:15:29 by carlopez          #+#    #+#             */
-/*   Updated: 2024/10/04 10:15:53 by carlopez         ###   ########.fr       */
+/*   Updated: 2024/10/10 12:33:13 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,4 @@ void	*ft_memset(void *s, int c, size_t n)
 		i++;
 	}
 	return (s);
-}
-
-int	main(void)
-{
-	char s[] = "hola";
-
-	printf("%s\n", (char *)ft_memset(s, 0, 8));
-	return (0);
 }
