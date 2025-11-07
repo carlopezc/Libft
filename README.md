@@ -19,7 +19,7 @@ This is the foundational project at 42. It was a deep dive into the **C programm
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/carlopezc/Libft.git](https://github.com/carlopezc/Libft.git)
+    git clone https://github.com/carlopezc/Libft.git
     cd Libft
     ```
 2.  Compile the library:
@@ -32,4 +32,3 @@ This is the foundational project at 42. It was a deep dive into the **C programm
     ```bash
     gcc your_program.c -L. -lft
     ```
-
